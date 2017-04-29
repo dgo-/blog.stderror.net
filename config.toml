@@ -1,0 +1,63 @@
+# blog config
+
+# url
+baseurl = "https://blog.stderror.net/"
+
+#language
+languageCode = "en-us"
+
+# writer
+title = "stderror"
+
+# Define how many pages appear per site
+paginate = 5
+
+# create rebots.txt
+enableRobotsTXT=            true
+
+# output dir
+publishDir=                 "public"
+
+#theme
+theme = "beautifulhugo"
+
+[author]
+    name = "dgo"
+    email = "dgo+blog{a}stderror.net"
+    github = "dgo-"
+    stackoverflow = "users/3799119/dgo"
+
+#[taxonomies]
+#    # Optional. Use if you want tags and lists.
+#    category = "categories"
+#
+
+#
+# All parameters below here are optional and can be mixed and matched.
+#
+[params]
+    # If false display full article contents in blog index.
+    # Otherwise show description and 'read on' link to individual blog post page.
+    # Default (if omitted) is true.
+    truncate = true
+
+    # Used when a given page doesn't set its own.
+    defaultDescription = "This is my personal tech blog. Here I write over my all day tech experience."
+    defaultKeywords = "computer,linux,mac,keywords"
+
+    # Hide estimated reading time for posts.
+    # Default (if omitted) is false.
+    hideReadingTime = true
+
+    googleAnalytics = "UA-61061309-3"
+    # google custom search
+    gcse = "009069724450534222334:hzdnt5osuuo"
+    #gravatarHash = "MD5 hash of your Gravatar email address"
+
+    # comments
+    disqusShortname = "blog-stderror-net"
+    comments = true
+
+    # Other social-like sidebar links
+    rss = true  # switch to true to enable RSS icon link
+
