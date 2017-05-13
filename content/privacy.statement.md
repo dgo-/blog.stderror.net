@@ -2,7 +2,6 @@
 title = "Privacy Statement"
 description = "Privacy Statement"
 date = "2016-01-06"
-menu = "main"
 comments = false
 +++
 

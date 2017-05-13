@@ -2,7 +2,6 @@
 title = "Imprint"
 description = "imprint"
 date = "2016-01-06"
-menu = "main"
 comments = false
 +++
 ## Legal Disclosure
