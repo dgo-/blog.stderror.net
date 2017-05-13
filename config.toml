@@ -13,7 +13,7 @@ title = "stderror"
 paginate = 5
 
 # create rebots.txt
-enableRobotsTXT=            true
+enableRobotsTXT=            false
 
 # output dir
 publishDir=                 "public"
@@ -61,3 +61,14 @@ theme = "beautifulhugo"
     # Other social-like sidebar links
     rss = true  # switch to true to enable RSS icon link
 
+    logo = "img/favicon.png"
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 3
