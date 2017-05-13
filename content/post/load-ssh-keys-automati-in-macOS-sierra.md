@@ -1,5 +1,5 @@
 +++
-date = "2017-12-26T16:07:08+01:00"
+date = "2017-03-26T16:07:08+01:00"
 title = "use ssh with keychain on macOS sierra"
 description = "load ssh keys automatic in macOS sierra"
 tags = [ "ssh", "macOS", "sierra" ]
@@ -24,7 +24,7 @@ Host *
 After you configure ssh you have to save the passphrase in the keychain you can do this with the following command. 
 ``` bash
 ssh-add -K
-# if you have a keyfile with a now default name
+# if you have a keyfile with a not default name
 ssh-add -K $keyfile
 ```
 
