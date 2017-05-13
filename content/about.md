@@ -7,5 +7,6 @@ comments = false
 +++
 I am a system engineer from Berlin. During my apprenticeship I fell in love with unix system. I like to manage them all. 
 
-![it's me Daniel](/img/me.jpg "it's me Daniel")
+<img src="/img/me.jpg" width="250" align="middle">
 
+Here you will will find my [personal site](https://www.stderror.net/).
