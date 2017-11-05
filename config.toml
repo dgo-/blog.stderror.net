@@ -1,7 +1,7 @@
 # blog config
 
 # url
-baseurl = "https://blog.stderror.net/"
+baseurl = "https://blog.stderror.net"
 
 #language
 languageCode = "en-us"
@@ -71,4 +71,9 @@ theme = "beautifulhugo"
 [[menu.main]]
     name = "Tags"
     url = "/tags"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "https://www.stderror.net"
     weight = 3
