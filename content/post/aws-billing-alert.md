@@ -2,7 +2,7 @@
 title = "Aws Billing Alert"
 date = "2017-11-12T16:19:35+01:00"
 description = ""
-tags = [ "aws", "billing ]
+tags = [ "aws", "billing" ]
 categories = [  "cloud" ]
 +++
 Because aws has no billing limit. It is importent to get notified when the cost are growing. 
