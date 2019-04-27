@@ -23,7 +23,6 @@ theme = "beautifulhugo"
 
 [author]
     name = "dgo"
-    email = "dgo+blog{a}stderror.net"
     github = "dgo-"
     stackoverflow = "users/3799119/dgo"
 
