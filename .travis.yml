@@ -1,0 +1,15 @@
+# Auto deploy repo from Github to Amazon S3 bucket via Travis CI
+# * Set env vars for ACCESS_KEY_ID, BUCKET_NAME and SECRET_ACCESS_KEY on Travis 
+# * Update `bucket.name` in `sync` command
+# * Assumes your `publishDir` is the default (`public`) - if not update `sync` command
+
+language: go
+install: go get -v github.com/spf13/hugo
+script:
+  - hugo
+  - python --version
+  - sudo pip install s3cmd
+  - s3cmd sync --delete-removed --access_key=$ACCESS_KEY_ID --secret_key=$SECRET_ACCESS_KEY -P -M -r public/ s3://$BUCKET_NAME
+notifications:
+    email:
+        on_failure: always
