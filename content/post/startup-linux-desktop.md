@@ -12,6 +12,16 @@ I try no make the boot process as minimal as possible. And require as well user 
 ## Grub
 First of all I will use grub as my bootloader to load Linux itself. 
 
+I setup the grub timeout to 0 get get a faster boot time. 
+``` /etc/default/grub
+GRUB_TIMEOUT=0
+```
+
+To apply the settings I have to rebuild the grub configuration with:
+```
+update-grub
+```
+
 ## Linux
 After Linux has started it will immediately decrypt my harddrive. For that I need to insert my Key.
 
