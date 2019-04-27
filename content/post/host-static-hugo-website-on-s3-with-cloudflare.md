@@ -24,7 +24,7 @@ I like static websites for sites where the content not needed to change dynamica
 ## use aws S3 as webserver
 First you have to create a new bucket for your website. Note that each bucket name have to be unique. So you can simple us for domain name *www.example.com*. To tell S3 to act as webserver you need to enable the option *Static website hosting*. Here you also need to enter an Document index, which is usually *index.html*. You also able to enter an error page here. That all you need to setup S3 to act as Webserver for your website.  
 
-Now S3 show you the URL for your website. This is looking something like this *http://www.example.com.s3-website.eu-central-1.amazonaws.com*.
+Now S3 show you the URL for your website. This is looking something like this *www.example.com.s3-website.eu-central-1.amazonaws.com*.
 ### upload the website to S3 bucket
 I use the [s3cmd app](http://s3tools.org/s3cmd) to upload my website to S3. 
 

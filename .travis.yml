@@ -19,7 +19,7 @@ before_script:
 script:
   - hugo
   - htmlproofer public/ 
-after_script:
+after_success:
   - s3cmd sync --delete-removed --no-preserve --acl-private --access_key=$ACCESS_KEY_ID --secret_key=$SECRET_ACCESS_KEY -r public/ s3://$BUCKET_NAME
 notifications:
     email: true

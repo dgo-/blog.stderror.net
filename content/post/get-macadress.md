@@ -15,7 +15,7 @@ in my job i sometimes need to know the MAC adresse of an local device. Sometimes
 ARP the address resolotion protocol is used in IPv4 to get the mac address for an IP address so you can send data to the device in a boadcast domain. And so I use simple the existing arp mechanisam to get mac adress whitout looking in an invertory.
 
 I write a little tool to make the whole process more comfotable. It is called marp an You can find it here:
-https://github.com/dgo-/bin/blob/master/marp
+github.com/dgo-/bin/blob/master/marp (no longer exists)
 
 Good Night,
 Daniel
