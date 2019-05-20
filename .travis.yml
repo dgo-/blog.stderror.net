@@ -12,8 +12,6 @@ addons:
     - libcurl4-openssl-dev # required to avoid SSL errors
 install: go get -v github.com/spf13/hugo
 before_script:
-  - ruby --version
-  - gem install html-proofer
   - python --version
   - sudo pip install s3cmd
 script:
