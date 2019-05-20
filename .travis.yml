@@ -16,8 +16,7 @@ before_script:
   - sudo pip install s3cmd
 script:
   - hugo
-  - htmlproofer public/ 
 after_success:
-  - s3cmd sync --delete-removed --no-preserve --acl-private --access_key=$ACCESS_KEY_ID --secret_key=$SECRET_ACCESS_KEY -r public/ s3://$BUCKET_NAME
+  - s3cmd sync --delete-removed --no-preserve --guess-mime-type --acl-private --access_key=$ACCESS_KEY_ID --secret_key=$SECRET_ACCESS_KEY -r public/ s3://$BUCKET_NAME
 notifications:
     email: true
