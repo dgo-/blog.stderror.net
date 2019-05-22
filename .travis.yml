@@ -30,9 +30,9 @@ deploy:
 
 # fix wrong mime types
 after_deploy:
-  - aws s3 cp --recursive --region eu-central-1 s3://$BUCKET_NAME/ s3://$BUCKET_NAME/ --exclude "*" --include "*.json" --content-type "application/json" --metadata-directive "REPLACE"
-  - aws s3 cp --recursive --region eu-central-1 s3://$BUCKET_NAME/ s3://$BUCKET_NAME/ --exclude "*" --include "*.css" --content-type "text/css" --metadata-directive "REPLACE"
-  - aws s3 cp --recursive --region eu-central-1 s3://$BUCKET_NAME/ s3://$BUCKET_NAME/ --exclude "*" --include "*.js" --content-type "application/javascript" --metadata-directive "REPLACE"
+  - aws s3 cp --recursive s3://$BUCKET_NAME/ s3://$BUCKET_NAME/ --exclude "*" --include "*.json" --content-type "application/json" --metadata-directive "REPLACE"
+  - aws s3 cp --recursive s3://$BUCKET_NAME/ s3://$BUCKET_NAME/ --exclude "*" --include "*.css" --content-type "text/css" --metadata-directive "REPLACE"
+  - aws s3 cp --recursive s3://$BUCKET_NAME/ s3://$BUCKET_NAME/ --exclude "*" --include "*.js" --content-type "application/javascript" --metadata-directive "REPLACE"
 
 notifications:
     email: true
