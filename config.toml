@@ -26,11 +26,6 @@ theme = "beautifulhugo"
     github = "dgo-"
     stackoverflow = "users/3799119/dgo"
 
-#[taxonomies]
-#    # Optional. Use if you want tags and lists.
-#    category = "categories"
-#
-
 #
 # All parameters below here are optional and can be mixed and matched.
 #
