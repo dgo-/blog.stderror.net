@@ -5,6 +5,7 @@ description = "After sway was finally moved to debian testing I make the move an
 tags = [ "LinuxOnDesktop", "Linux", "sway", "wayland", "i3" ]
 categories = [  "Linux", "Desktop", "sway" ]
 +++
+
 I have watched the wayland now already for a long time. But I was afraid to switch on such a importent configuration in my desktop setup. Because I used i3 for long time now, because of that I want to switch direct to **sway**, but I don't want to keep track of a self compiled sway, so I waited until sway get in **Debian** testing. This finially happens in the last month.
 I will write here a bit about expirence. 
 
