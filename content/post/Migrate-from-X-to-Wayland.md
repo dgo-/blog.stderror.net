@@ -69,6 +69,9 @@ I found online a workaround for this by adding the option **--no-remote** to fir
 
 There is also already a [bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1551664) at mozilla,that is already fixed. The fix will be in Firefox 74. 
 
+### Keepassxc
+To get keepassxc working with wayland. I need to install the package **qtwayland5**. After that everthing works fine. 
+
 ## conclusion
 Overall the migration going really well. For the moment I have no problem. Let's see how it is going.
 
