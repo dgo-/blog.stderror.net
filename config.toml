@@ -13,7 +13,7 @@ title = "stderror"
 paginate = 5
 
 # create rebots.txt
-enableRobotsTXT=            false
+enableRobotsTXT=            true
 
 # output dir
 publishDir=                 "public"
